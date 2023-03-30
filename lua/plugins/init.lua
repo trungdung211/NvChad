@@ -245,6 +245,13 @@ local default_plugins = {
       require("which-key").setup(opts)
     end,
   },
+
+  -- Coc vim
+  { 
+    "neoclide/coc.nvim", 
+    branch = "release",
+    cmd = { "CocInstall", "CocUninstall", "CocEnable", "CocDisable", "CocConfig" },
+  },
 }
 
 local config = require("core.utils").load_config()

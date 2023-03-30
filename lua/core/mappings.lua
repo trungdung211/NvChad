@@ -45,6 +45,14 @@ M.general = {
     -- new buffer
     ["<leader>b"] = { "<cmd> enew <CR>", "new buffer" },
     ["<leader>ch"] = { "<cmd> NvCheatsheet <CR>", "Mapping cheatsheet" },
+
+    -- tab nav
+    ["<leader>1"] = {"1gt"},
+    ["<leader>2"] = {"2gt"},
+    ["<leader>3"] = {"3gt"},
+    ["<leader>4"] = {"4gt"},
+    ["<leader>5"] = {"5gt"},
+    ["<leader>6"] = {"6gt"},
   },
 
   t = {
